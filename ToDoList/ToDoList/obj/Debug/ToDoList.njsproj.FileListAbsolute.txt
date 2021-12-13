@@ -1,0 +1,6 @@
+D:\SourceControlExplovers\DefaultProject\Trainings\ToDoList\Komarevtsev_S\MAIN\ToDoList\ToDoList\obj\Debug\ToDoList.njsproj.CoreCompileInputs.cache
+D:\SourceControlExplovers\DefaultProject\Trainings\ToDoList\Komarevtsev_S\MAIN\ToDoList\ToDoList\bin\Microsoft.NodejsTools.WebRole.dll
+D:\SourceControlExplovers\DefaultProject\Trainings\ToDoList\Komarevtsev_S\MAIN\ToDoList\ToDoList\obj\Debug\ToDoList.njsproj.AssemblyReference.cache
+D:\Desktop\Trainings\ToDoList\Komarevtsev_S\MAIN\ToDoList\ToDoList\obj\Debug\ToDoList.njsproj.AssemblyReference.cache
+D:\Desktop\Trainings\ToDoList\Komarevtsev_S\MAIN\ToDoList\ToDoList\obj\Debug\ToDoList.njsproj.CoreCompileInputs.cache
+D:\Desktop\Trainings\ToDoList\Komarevtsev_S\MAIN\ToDoList\ToDoList\bin\Microsoft.NodejsTools.WebRole.dll

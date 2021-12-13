@@ -1,0 +1,187 @@
+body {
+    font-family: "Arial", sans-serif;
+    padding: 0 10px;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 400;
+    vertical-align: central;
+    margin-top:125px;
+    margin-bottom: 10%;
+    background-image: url(../image/maxresdefault.png);
+    background-size: cover;
+}
+
+input, select {
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+div {
+    text-align: center;
+    max-inline-size: 89%;
+    min-inline-size: 40%;
+    margin: auto;
+}
+
+span {
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding-right: 5px;
+    word-break: break-all;
+    margin-bottom: 3px;
+    padding-left: 4px;
+    display: flex;
+    align-content: start;
+}
+
+.resizedTextbox {
+    max-width: 400px;
+    width: 80%;
+    height: auto;
+    margin-bottom: 4px;
+}
+
+.loader {
+    max-inline-size: 14px;
+    min-inline-size: 14px;
+    border: 6px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 6px solid #3498db;
+    width: 14px;
+    height: 14px;
+    animation: spin 2s linear infinite;
+}
+
+div.ui-datepicker {
+    max-inline-size: 280px;
+    min-inline-size: 100px;
+}
+
+.urgency-item {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #6D6E6E;
+    border-radius: 8px;
+    margin: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 0;
+    max-inline-size: 10%;
+    min-inline-size: 10%;
+}
+
+.urgency-low {
+    background-color: #03C400;
+}
+
+.urgency-middle {
+    background-color: #F0E600;
+}
+
+.urgency-high {
+    background-color: #C22000;
+}
+
+.alert {
+    font-size: 20px;
+    width: 10%;
+    position: relative;
+    padding: 1rem 1rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+
+.alert-danger {
+    color: #842029;
+    background-color: #f8d7da;
+    border-color: #f5c2c7;
+}
+
+.lists-output {
+    width: 80%;
+    height: auto;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.todos-output {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textbox {
+    margin-bottom: 20px;
+}
+
+.Completed {
+    height: 50%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: forestgreen;
+    text-decoration: line-through;
+    overflow-y: scroll;
+}
+
+#AddDealButton {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#out {
+    height: 50%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: scroll;
+}
+
+#content {
+    position: relative;
+   
+    font-size: calc(14px + (18 - 14) * ( (100vw - 480px) / ( 1024 - 480) ));
+}
+
+img#bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#Activ {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 15em;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
